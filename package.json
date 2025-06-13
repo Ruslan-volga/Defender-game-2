@@ -1,0 +1,35 @@
+{
+  "name": "defender-game-2",
+  "version": "1.0.0",
+  "description": " \"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruslan-volga/Defender-game-2.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Ruslan-Volga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruslan-volga/Defender-game-2/issues"
+  },
+  "homepage": "https://github.com/Ruslan-volga/Defender-game-2#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "@eslint/js": "^9.28.0",
+    "eslint": "^9.28.0",
+    "globals": "^16.2.0"
+  },
+  "dependencies": {
+    "core-js": "^3.43.0"
+  }
+}
